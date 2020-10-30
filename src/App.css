@@ -1,0 +1,78 @@
+.App {
+  text-align: center;
+}
+
+.border {
+  border: solid white 5px;
+  margin: 10px;
+  padding: 15px;
+}
+
+table {
+  border: solid white 5px;
+  margin: 30px;
+}
+
+tr, td, th {
+  border: solid white 1px;
+  padding: 5px;
+  border-collapse: collapse;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+  height: fit-content;
+  border-radius: 10px;
+}
+
+a:hover{
+  background-color: white;
+  color: black;
+}
+
+button{
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+  padding:10px;
+  height: fit-content;
+  border-radius: 15px;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+}
+
+.App-header {
+  margin-top: 10px;
+  width: 1350px;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-body {
+  width: 1350px;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.route {
+  display: flex;
+  justify-content: space-evenly;
+  border: none;
+  width: 100%;
+}
